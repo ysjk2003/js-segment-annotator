@@ -17,8 +17,8 @@
  *
  * Copyright 2015  Kota Yamaguchi
  */
-define(["./base",
-        "../compat"],
+ define(["../demo/js/image/segmentation/base",
+         "../demo/js/image/compat"],
 function(BaseSegmentation, compat) {
   function PFF(imageData, options) {
     BaseSegmentation.call(this, imageData, options);

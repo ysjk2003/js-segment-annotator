@@ -8,10 +8,10 @@
  *
  * Copyright 2015  Kota Yamaguchi
  */
-define(["./segmentation/pff",
-        "./segmentation/slic",
-        "./segmentation/slico",
-        "./segmentation/watershed"],
+define(["../../../superpixel/slic",
+        "../../../superpixel/slic",
+        "../../../superpixel/slic",
+        "../../../superpixel/slic"],
 function (pff, slic, slico, watershed) {
   var methods = {
     pff: pff,
